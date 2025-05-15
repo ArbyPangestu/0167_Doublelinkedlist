@@ -28,6 +28,15 @@ public:
         cout << "\nEnter the roll number of the student : ";
         cin >> nim;
 
+        //step 1 : Allocate memory for the new code
+        Node *newNode = new Node();
+
+        //step 2: Assign value to the date fields
+        newNode->noMhs = nim;
+
+        //Step 3: Insert at beginning if list is empty or nim is smallest
+        if(START == NULL || nim <= START->noMhs)
+    
     }
 
 }
