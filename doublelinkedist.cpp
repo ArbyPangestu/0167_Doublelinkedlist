@@ -57,7 +57,15 @@ public:
             return;
         }
 
-       
+        // Insert in betweennode 
+        //Step 8: Locate position for insertion
+        Node *current = START;
+        while (current->next != NULL && current->next->noMhs < nim)
+        {
+            current = current->next;
+        }
+
+        
     }
 
 }
