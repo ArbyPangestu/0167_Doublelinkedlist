@@ -148,3 +148,15 @@ public:
             i++;
         }
     }
+
+    void retraverse()
+    {
+       if (START == NULL)
+       {
+         cout << "\nList is empty" << endl;
+         return;
+       }
+
+    }
+
+};
