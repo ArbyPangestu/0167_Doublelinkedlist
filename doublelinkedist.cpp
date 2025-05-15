@@ -127,4 +127,15 @@ public:
         delete current;
         cout << "Reccord with roll number " << rollno << "deleted" << endl;
     }
- 
+
+    void raverse()
+    {
+        if(START == NULL)
+        {
+            cout << "\nList is empty" << endl;
+            return;
+        }
+        
+    }
+
+   
