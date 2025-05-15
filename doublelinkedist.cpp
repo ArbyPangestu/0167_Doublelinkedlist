@@ -157,6 +157,17 @@ public:
          return;
        }
 
+       //Step 1: Move to last Node
+       Node *currentNode = START;
+       int i = 0
+       while (currentNode->next != NULL)
+       {
+        currentNode = currentNode->next;
+        i++;
+       }
+
+       //Step 2: Traverse backward
+       cout <<"\nReccord is "; 
     }
 
 };
